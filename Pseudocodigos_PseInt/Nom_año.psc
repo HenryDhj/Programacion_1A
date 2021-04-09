@@ -1,10 +1,10 @@
 Algoritmo Nom_año
-	Escribir "Escribir su nombre por favor "
+	Escribir 'Escribir su nombre por favor '
 	Leer nomp
-	Escribir "Ingrese la fecha de nacmaiento"
+	Escribir 'Ingrese la fecha de nacmaiento'
 	Leer fnac
-	Escribir "Ingrese la fecha actual"
+	Escribir 'Ingrese la fecha actual'
 	Leer factual
-	Edad = factual-fnac
-	Imprimir "La edad de ", nomp " es ", Edad
+	Edad <- factual-fnac
+	Escribir 'La edad de ',nomp,' es ',Edad
 FinAlgoritmo
